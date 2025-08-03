@@ -1,12 +1,17 @@
-# React + Vite
+# Simple Food Ordering Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic food ordering website built with **React.js**. Users can browse the menu, add items to the cart, and sign up or log in to place orders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page** – Introduction and welcome message.
+- **Menu Page** – Displays food items with images, descriptions, and "Add to Cart" buttons.
+- **Sign Up / Login** – Basic authentication (UI only, no backend).
+- **Cart Page** – Shows selected items with quantities and total price.
+- **Routing** – Implemented using React Router.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Frontend)
+- React Router DOM
+
